@@ -1,0 +1,66 @@
+#!/usr/bin/env python
+
+############# option 1 ###########################
+
+# import sys
+
+# first_arg = sys.argv[1]
+# second_arg = sys.argv[2]
+
+# def greetings(word1=first_arg, word2=second_arg):
+#     print("{} {}".format(word1, word2))
+# if __name__ == "__main__":
+# 	greetings("Bonjour()
+# 	greetings("Bonjour", "monde")
+
+############# option 1 ###########################
+
+
+
+
+############# option 2 ###########################
+import sys
+
+first_arg = sys.argv[1]
+second_arg = sys.argv[2]
+
+def add(num1=int(first_arg), num2=int(second_arg)):
+    answer = num1 + num2
+    print (answer)
+
+if __name__ == "__main__":
+	add()
+	#greetings("Bonjour", "monde")
+
+############# option 2 ###########################
+
+
+
+
+############# option 3 ###########################
+
+# def add(a=int(num1), b=int(num2)):
+#    return a + b
+# answer = add(a,b)
+# print (answer)
+
+############# option 3 ###########################
+
+
+
+
+############# other Approach ###########################
+
+# import argparse
+
+# parser = argparse.ArgumentParser(description='Process some integers.')
+# parser.add_argument('integers', metavar='N', type=int, nargs='+',
+#                     help='an integer for the accumulator')
+# parser.add_argument('--sum', dest='accumulate', action='store_const',
+#                     const=sum, default=max,
+#                     help='sum the integers (default: find the max)')
+
+# args = parser.parse_args()
+# print(args.accumulate(args.integers))
+
+############# other Approach ###########################
